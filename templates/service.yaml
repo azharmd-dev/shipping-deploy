@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: shipping
+  namespace: robomart
+spec:
+  selector:
+    project: robomart
+    component: shipping
+    tier: backend
+  ports:
+  - protocol: TCP 
+    port: 8080
+    targetPort: 8080
