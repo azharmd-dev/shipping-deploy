@@ -7,11 +7,6 @@ properties([
   ])
 ])
 
-println "===================================="
-println "Received APP VERSION: ${params.appVersion}"
-println "Deploying to ENV     : ${params.deploy_to}"
-println "===================================="
-
 def configMap = [
     project: "robomart", 
     component: "shipping",
