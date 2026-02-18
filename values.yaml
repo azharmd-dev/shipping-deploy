@@ -1,0 +1,5 @@
+deployment:
+  imageRepo: 522534289017.dkr.ecr.us-east-1.amazonaws.com/robomart
+  component: shipping
+  imageVersion: IMAGE_VERSION
+  project: robomart
